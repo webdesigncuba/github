@@ -1,0 +1,20 @@
+{
+    "name": "davidybertha/github",
+    "description": "Github user Activity",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Davidybertha\\Github\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "David Cordero Rosales",
+            "email": "webdesigncuba@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/console": "^7.2",
+        "guzzlehttp/guzzle": "^7.9"
+    }
+}
